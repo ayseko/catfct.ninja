@@ -4,29 +4,163 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="319c25cb-687a-4e28-af8e-ebfc4ca34af7" name="Changes" comment="" />
+    <list default="true" id="319c25cb-687a-4e28-af8e-ebfc4ca34af7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.logs/logger.html" beforeDir="false" afterPath="$PROJECT_DIR$/.logs/logger.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.logs/logger.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.logs/logger.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseURL/CatfctNinja_baseURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseURL/CatfctNinja_baseURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pojo/CatfctNinja_pojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pojo/CatfctNinja_pojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Get_a_list_of_breeds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requests/Get_a_list_of_breeds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Get_a_list_of_breeds_limit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requests/Get_a_list_of_breeds_limit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Get_a_list_of_facts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requests/Get_a_list_of_facts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Get_facts_limit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requests/Get_facts_limit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Get_facts_max_lenght.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requests/Get_facts_max_lenght.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Get_random_fact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requests/Get_random_fact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/requests/Get_random_fact_max_length.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/requests/Get_random_fact_max_length.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2guoiLcMBjWmPK8opbFiFhmApKu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/musta/IdeaProjects/catfct.ninja",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\musta\Desktop\catfct.ninja" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="requests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Get_facts_max_lenght.getFactsMaxLenght">
+    <configuration name="Breeds_get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catfct.ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.Breeds_get" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fact_get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catfct.ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.Fact_get" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Facts_get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catfct.ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.Facts_get" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get_facts_limit.getFactsLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catfct.ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.Get_facts_limit" />
+      <option name="METHOD_NAME" value="getFactsLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Get_facts_max_lenght.getFactsMaxLenght" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="catfct.ninja" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="requests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="requests" />
+      <option name="MAIN_CLASS_NAME" value="requests.Get_facts_max_lenght" />
+      <option name="METHOD_NAME" value="getFactsMaxLenght" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Get_facts_max_lenght.getFactsMaxLenght" />
+        <item itemvalue="JUnit.Get_facts_limit.getFactsLimit" />
+        <item itemvalue="JUnit.Facts_get" />
+        <item itemvalue="JUnit.Fact_get" />
+        <item itemvalue="JUnit.Breeds_get" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,5 +171,8 @@
       <updated>1716556958324</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

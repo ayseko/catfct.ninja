@@ -10,15 +10,17 @@ import pojo.CatfctNinja_pojo;
 
 import static io.restassured.RestAssured.given;
 
-public class Get_random_fact extends CatfctNinja_baseURL{
+public class Get_random_fact_max_length extends CatfctNinja_baseURL{
     @Test
-    public void getRandomFact(){
-
+    public void getRandomFactMaxLenght(){
+        CatfctNinja_pojo pojo = new CatfctNinja_pojo();
+        pojo.setMax_lenght(20);
 
         PropertyConfigurator.configure("log4j.properties");
-        Logger logger = Logger.getLogger(Get_random_fact.class);
+        Logger logger = Logger.getLogger(Get_random_fact_max_length.class);
 
-        specification.pathParam("firstParam","fact");
+        specification.pathParam("firstParam","fact")
+                .queryParam("max_length",pojo.getMax_lenght());
         logger.info("User sets the url with parameter");
         Response response=given().spec(specification).when().get("/{firstParam}");
         logger.info("User sends the GET request");

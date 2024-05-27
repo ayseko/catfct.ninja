@@ -9,22 +9,22 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.given;
 
-public class Get_alist_of_facts extends CatfctNinja_baseURL {
+public class Get_a_list_of_facts extends CatfctNinja_baseURL {
     @Test
     public void getFactsList(){
         PropertyConfigurator.configure("log4j.properties");
-        Logger logger = Logger.getLogger(Get_a_list_of_breeds.class);
+        Logger logger = Logger.getLogger(Get_a_list_of_facts.class);
 
-        specification.pathParam("firstParam","breeds");
+        specification.pathParam("firstParam","facts");
         logger.info("User sets the url with parameter");
         Response response=given().spec(specification).when().get("/{firstParam}");
         logger.info("User sends the GET request");
         response.getBody().prettyPrint();
-        logger.info("User displays the response body");
+        logger.info("User displays the facts list in the response body");
         response.then().assertThat().statusCode(200);
-        logger.info("User asserts that The status code is 200");
+        logger.info("User asserts that the status code is 200");
         response.then().assertThat().contentType(ContentType.JSON);
-        logger.info("User asserts that The conten type is applicatian/json");
+        logger.info("User asserts that the content type is application/json");
 
     }
 }
