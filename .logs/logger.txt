@@ -1,0 +1,22 @@
+2024-05-24 23:32:42 INFO  Breeds_get:50 - User sets the url with parameter and limit
+2024-05-24 23:32:44 INFO  Breeds_get:52 - User sends the GET request
+2024-05-24 23:32:44 INFO  Breeds_get:54 - User displays the breeds list in the response body
+2024-05-24 23:32:44 INFO  Breeds_get:56 - User asserts that The status code is 200
+2024-05-24 23:32:44 INFO  Breeds_get:58 - User asserts that The content type is application/json
+2024-05-24 23:32:44 INFO  Breeds_get:30 - User sets the url with parameter and limit
+2024-05-24 23:32:44 INFO  Breeds_get:32 - User sets the url with parameter
+2024-05-24 23:32:45 INFO  Breeds_get:34 - User sends the GET request
+2024-05-24 23:32:45 INFO  Breeds_get:36 - User displays the response body
+2024-05-24 23:32:45 INFO  Breeds_get:38 - User asserts that The status code is 200
+2024-05-24 23:32:45 INFO  Breeds_get:40 - User asserts that The conten type is applicatian/json
+2024-05-24 23:35:39 INFO  Breeds_get:51 - User sets the url with parameter and limit
+2024-05-24 23:35:42 INFO  Breeds_get:53 - User sends the GET request
+2024-05-24 23:35:42 INFO  Breeds_get:55 - User displays the breeds list in the response body
+2024-05-24 23:35:42 INFO  Breeds_get:57 - User asserts that The status code is 200
+2024-05-24 23:35:42 INFO  Breeds_get:59 - User asserts that The content type is application/json
+2024-05-24 23:35:42 INFO  Breeds_get:30 - User sets the url with parameter
+2024-05-24 23:35:42 INFO  Breeds_get:32 - User sets the url with parameter
+2024-05-24 23:35:43 INFO  Breeds_get:34 - User sends the GET request
+2024-05-24 23:35:43 INFO  Breeds_get:36 - User displays the response body
+2024-05-24 23:35:43 INFO  Breeds_get:38 - User asserts that The status code is 200
+2024-05-24 23:35:43 INFO  Breeds_get:40 - User asserts that The conten type is applicatian/json
